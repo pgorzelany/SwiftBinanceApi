@@ -7,7 +7,7 @@
 
 import Foundation
 
-public protocol BinanceApiClientProtocol: AnyObject {
+public protocol BinanceApiClientProtocol {
     func ping() async throws -> Void
     func checkServerTime() async throws -> ServerTime
     func getAccountInformation() async throws -> AccountInfo

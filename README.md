@@ -1,3 +1,5 @@
 # SwiftBinanceApi
 
-A description of this package.
+A Swift wrapper for the Binance Spot trading API.
+
+
